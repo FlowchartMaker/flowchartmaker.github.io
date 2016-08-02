@@ -1,3 +1,18 @@
+.header{
+	width:75px;
+}
+
+.sidebar {
+  font-family: "Open Sans", sans-serif;
+}
+
+.confirmStuff{
+	width:170px;
+	position:relative;
+	top:-40px;
+	right:-6%;
+}
+
 .music {
   background: white;
 	font-size:20px;
@@ -95,14 +110,9 @@
   right: -40px;
 }
 
-.confirmStuff{
+.separator{
 	position:relative;
-	top:-40px;
-	right:-6%;
-}
-
-.sidebar {
-  font-family: "Open Sans", sans-serif;
+	top:-355px;
 }
 
 .M {
