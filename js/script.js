@@ -75,10 +75,5 @@ var main = function(){
     $(".D").draggable();
   });
 	
-	var pdf = new jsPDF('p','pt','a4');
-	pdf.addHTML(document.body,function() {
-    pdf.save('web.pdf');
-	});
-	
 };
 $(document).ready(main);
